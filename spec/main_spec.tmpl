@@ -1,0 +1,7 @@
+(ns {{namespace}}.core-spec
+  (:require [speclj.core :refer :all]
+            [{{namespace}}.core :refer [greet]]))
+
+(describe "greet"
+  (it "says hello"
+    (should= "Hello, Clojure!" (greet "Clojure"))))

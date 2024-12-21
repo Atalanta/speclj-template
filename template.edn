@@ -1,0 +1,10 @@
+{
+  :description "A minimal Speclj template with zero fuss"
+
+  :src-dirs ["src" "spec"]
+
+  :mappings
+  {"src" "src"
+   "spec" "spec"}
+
+}
